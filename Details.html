@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- This page is for showing the details of the superhero whom we want to know about -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body style="background-color:black;">
+  
+<!--adding loaders until the data is fetched  -->
+      <div class="card" style="height:30vh;width: 30vw;margin:20%;margin-bottom: 10px;margin-top:5%;background-color: black;">
+        <img src="..." id="card-img" alt="..." style="height:40vh;width: 50vw;;">
+        <div class="spin">  
+          <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-border text-secondary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-border text-success" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-border text-secondary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-border text-success" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+         </div>
+      </div>
+  <div id="box">
+    <!-- showing the image and appearance details on cards -->
+   <div id="det" style="margin-right: 1%;margin-left:22% ;margin-right: 2%;">
+        <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+          <div id="card-header"></div>
+          <div class="card-body">
+            <h5 class="card-title">Appearance</h5>
+            <p class="card-text"></p>
+         
+        <div class="card text-white bg-secondary mb-3" style="width:12rem;">
+          <div id="card-header1"></div>
+          <div id="card-body1">
+            <h5 id="card-title1"></h5>
+            <p id="card-text1"></p>
+            <p id="card-text11"></p>
+            <p id="card-text12"></p>
+            <p id="card-text13"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+      <div id="det1" style="margin-right: 1%;margin-right:2%;">
+        
+        
+        <!-- card to show the image and biography -->
+    
+        
+        <div class="card text-dark bg-warning mb-3" style="max-width: 18rem;">
+          <div id="card-headers2"></div>
+          <div id="card-body">
+            <h5 id="card-title">Biography</h5>
+            <p id="card-text"></p>
+       
+        <div class="card text-dark bg-info mb-3" style="width: 12rem;">
+          <div id="card-title2"></div>
+          <div id="card-body2">
+            <h5 id="card-header2"></h5>
+            <p id="card-text2"></p>
+            <p id="card-text21"></p>
+            <p id="card-text22"></p>
+            <p id="card-text23"></p>
+          </div>
+        </div>
+          </div>
+        </div>
+   
+
+      </div>
+      <div id="det2">  
+        
+        
+        <!-- card to show the powerstats of the superhero -->
+        <div class="card text-dark bg-warning mb-3" style="max-width: 18rem;">
+          <div id="card-header3"></div>
+          <div class="card-body">
+            <h5 class="card-title">Powerstats</h5>
+            <p class="card-text"></p>
+       
+        <div class="card text-dark bg-info mb-3" style="width: 12rem;">
+          <div id="card-title3"></div>
+          <div id="card-body3">
+            <p id="card-headers3"></p>
+            <p id="card-text3"></p>
+            <p id="card-text31"></p>
+            <p id="card-text32"></p>
+            <p id="card-text33"></p>
+            <p id="card-text34"></p>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+     </div>
+
+      <div>
+        <button id="id"></button>
+    </div>
+   <!-- Javascript added to make the particular page dynammic -->
+    <script src="Details.js"></script>
+</body>
+</html>
