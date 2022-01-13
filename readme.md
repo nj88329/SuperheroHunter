@@ -16,11 +16,11 @@ The project consists of three different files:
 
 4) Favourite.html- This is the page where we are showing the list of all favourite superheroes.
 
-5) Favourite.js-  We will make the favourite.html file dynammic using this page.
+5) Favourite.js-  We will make the favourite.html file dynamic using this page.
 
 6) Details.html- Here we will be getting the details of the superhero we want to know.
 
-7) Details.js - Javascript file to make details.html dynammic.
+7) Details.js - Javascript file to make details.html dynamic.
 ## API
 
 Link of the site from where we are accessing the superheroes info. 
